@@ -1,0 +1,34 @@
+body {
+    background-color: #23272A;
+    color: #b7b7b7;
+    font-family: 'Lato', sans-serif;
+}
+
+.social-link, .social-link:link, .social-link:visited, .social-link:hover, .social-link:active {
+    color: #cecece;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.social-link.github:hover{
+    color: #333333;
+}
+.social-link.linkedin:hover{
+    color: #0077B5;
+}
+
+.social-link.email:hover{
+    color: #ea4335;
+}
+.social-link.stack:hover{
+    color: #f48024;
+}
+
+.contact-data:link, .contact-data:visited, .contact-data:hover, .contact-data:active{
+    color: #b7b7b7;
+    text-decoration: none;
+}
+
+.contact-data:link:hover{
+    background: #ea4335;
+}
